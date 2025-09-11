@@ -13,7 +13,6 @@
                 My name is daniel, i have 4 siblings. 
                 I am from a country called myanmar and my favourite thing to do is procrasinate 
                 but i'm trying to change.</section>
-        <section>
             <h2>Education</h2>
             <p>
              i'm studyying information technology.              
