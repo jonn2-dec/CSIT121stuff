@@ -1,30 +1,9 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-    <header>
-        <h1>Lab 01: Student Bio</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                My name is daniel, i have 4 siblings. 
-                I am from a country called myanmar and my favourite thing to do is procrasinate 
-                but i'm trying to change.</section>
-            <h2>Education</h2>
-            <p>
-             i'm studyying information technology.              
-                </p>
-        </section>
-        <section>
-            <h2>Skills/Hobbies</h2>
-            <p>I like to watch movies or anime</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Student in CSIT 121</p>
-    </footer>
-</body>
-</html>
+<h2>Lab Assignment</h2>
+
+<ol>
+<li><a href="lab01/aboutme.html" target="_blank">Lab 01</a></li>
+<li><a href="lab02/" target="_blank">Lab 02</a></li>
+<li><a href="lab03/" target="_blank">Lab 03</a></li>
+<li><a href="lab04/" target="_blank">Lab 04</a></li>
+<li><a href="lab07example/table.html" target="_blank">Lab 07 EXAMPLE</a></li>
+</ol>
