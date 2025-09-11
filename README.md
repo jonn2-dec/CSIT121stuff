@@ -1,9 +1,6 @@
 # CSIT121stuff
 classworks for csit121
-<p> <a href= "[github.com/jonn2-dec/CSIT121stuff/"> 
-  published versions </a>
-</p>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,10 +38,3 @@ classworks for csit121
     </footer>
 </body>
 </html>
-
-
-
-<h2>Lab assignment </h2>
-<ol>
-  <li> <a href="https://github.com/jonn2-dec/CSIT121stuff/blob/main/lab01/aboutme.html> about me </a></li>
-</o1>
