@@ -7,3 +7,4 @@
 <li><a href="lab04/" target="_blank">Lab 04</a></li>
 <li><a href="lab07example/table.html" target="_blank">Lab 07 EXAMPLE</a></li>
 </ol>
+something stuff
