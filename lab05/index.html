@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Z Nepal Protest & Reflections</title>
+    <link id="stylesheet" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="standard.css">
+    <script>
+        function changeStylesheet(sheet) {
+            document.getElementById('stylesheet').setAttribute('href', sheet);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header id="top">
+            <h1>Gen Z Nepal Protest</h1>
+            <nav>
+                <ul>
+                    <li><a href="#protest">Protest Info</a></li>
+                    <li><a href="#reflection1">Reflection 1</a></li>
+                    <li><a href="#reflection2">Reflection 2</a></li>
+                    <li><a href="#reflection3">Reflection 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article id="protest">
+                <h2>What the Protest is About</h2>
+                <p>Although most people know this as protest about social media ban, it really is not about social media ban.
+                   This has been an ongoing issue where the rich kids live luxuriously while the poor struggle to make a living.</p>
+                <h2>Main Points to Know</h2>
+                <ol>
+                    <li>They have already voted for new prime minister</li>
+                    <li>Started with a few people, but grew to thousands within days</li>
+                    <li>Important governers have already fled, while the financial minister has already resigned</li>
+                    <li>Protesters are mainly students but many other adults have joined in</li>
+                </ol>
+                <h3>Reliable Sources</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=IyxSqeFrlp0&t=414s" target="_blank">Inside Nepal</a></li>
+                    <li><a href="https://www.cnn.com/2025/09/10/asia/nepal-protests-gen-z-outcome-intl-hnk" target="_blank">News article</a></li>
+                </ul>
+            </article>
+            <article id="reflection1">
+                <h2>Reflection 1 (Lab 02)</h2>
+                <p>What I learned from lab 02 is how important it is to make sure the <span class="highlight">tags are correct</span>, even if it does not show on the page.</p>
+            </article>
+            <article id="reflection2">
+                <h2>Reflection 2 (Lab 03)</h2>
+                <p>Since lab02, I learned more about organizing folders, creating external stylesheets, and making my code easier to maintain. I also paid attention to using correct tags and clear color choices.</p>
+            </article>
+            <article id="reflection3">
+                <h2>Reflection 3 (Lab 05)</h2>
+                <p>In working on lab05, I learned the importance of responsive design: using CSS Grid and Flexbox with media queries ensures my site looks good on both mobile and desktop. I now follow best practices like keeping CSS modular, using clear class names, and testing on multiple devices for usability and accessibility.</p>
+            </article>
+        </main>
+        <aside>
+            <h2>Sidebar</h2>
+            <p>Choose a layout below:</p>
+            <ul>
+                <li><button onclick="changeStylesheet('standard.css')">Normal Flow</button></li>
+                <li><button onclick="changeStylesheet('grid1.css')">Grid Full</button></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>&copy; Daniel Hung</p>
+        </footer>
+    </div>
+</body>
+</html>
