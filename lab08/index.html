@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 08</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Font (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="dog.html">Dog</a>
+  <a href="ants.html">Ants</a>
+  <a href="car.html">Car</a>
+</div>
+
+<span class="openbtn" onclick="openNav()">☰ < if you want to see more</span>
+
+<div id="main">
+  <main>
+    <header>
+      <h1>This is the home page of Lab08</h1>
+    </header>
+
+    <section>
+      <p>This site shows my favorite things: dogs, cars, and ants.</p>
+    </section>
+
+    <footer>
+      &copy;2025 DANIEL HUNG
+    </footer>
+  </main>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
+
