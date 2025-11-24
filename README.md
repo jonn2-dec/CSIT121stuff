@@ -9,6 +9,6 @@
 <li><a href="lab06/" target="_blank">Lab 06</a></li>
 <li><a href="lab07/" target="_blank">Lab 07</a></li>
 <li><a href="lab08/" target="_blank">Lab 08</a></li>
-
+<li><a href="lab09/" target="_blank">Lab 09</a></li>
 </ol>
 something stuff
