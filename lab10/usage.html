@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Accessible Name and Description Computation Example</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Examples for Accessible Name & Description Computation 1.1</h2>
+
+<header>
+    <h1>Accessible Name and Description Computation 1.1</h1>
+    <span class="openbtn" onclick="openNav()">☰ </span>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">What is it?</a>
+      <a href="importance.html">Why is it important?</a>
+      <a href="usage.html">How is it used?</a>
+      <a href="sources.html">Sources</a>
+    </div>
+    <script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</header>
+<main>
+<!-- 1. aria-labelledby (Step 2A) -->
+<div>
+  <p id="lbl1">Search Button</p>
+  <button aria-labelledby="lbl1">🔍</button>
+</div>
+
+
+<!-- 2. aria-describedby (Step 2A for descriptions) -->
+<div>
+  <button aria-describedby="info1">Submit</button>
+  <p id="info1">This sends your form data.</p>
+</div>
+
+
+<!-- 3. aria-label (Step 2B) -->
+<div>
+  <button aria-label="Close Menu">X</button>
+</div>
+
+
+<!-- 4. Native label element (Step 2C) -->
+<div>
+  <label for="emailField">Email Address</label>
+  <input id="emailField" type="email">
+</div>
+
+
+<!-- 5. Embedded control example (Step 2D) -->
+<div>
+  <label>
+    Volume:
+    <input type="range" min="0" max="100" value="40" aria-valuenow="40">
+  </label>
+</div>
+
+
+<!-- 6. Name from content + CSS before/after (Step 2F) -->
+<div>
+  <button class="button-with-css">Download File</button>
+</div>
+
+
+<!-- 7. Text Node only (Step 2H) -->
+<p>This is just normal text content.</p>
+
+
+<!-- 8. Tooltip attribute (Step 2J) -->
+<div title="This is a tooltip message.">Hover for tooltip</div>
+
+
+</body>
+</html>
+
