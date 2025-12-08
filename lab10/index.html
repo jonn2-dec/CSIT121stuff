@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Name and Description Computation 1.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Accessible Name and Description Computation 1.1</h1>
+    <button class="openbtn" type="button" onclick="openNav()" aria-label="Open navigation menu">☰</button>
+    <div id="mySidenav" class="sidenav">
+        <button class="closebtn" type="button" onclick="closeNav()" aria-label="Close navigation menu">&times;</button>
+        <a href="index.html">What is it?</a>
+        <a href="important.html">why is it important?</a>
+        <a href="usage.html">How is it used?</a>
+        <a href="source.html">Source</a>
+    </div>
+</header>
+
+<main>
+    <h2>Accessible Name and Description Computation</h2>
+    <p>
+        This standard defines how browsers and assistive technologies compute the accessible name and description for elements like buttons, links, images, and form fields. It ensures users with disabilities understand what each element does.
+    </p>
+
+    <div>
+        <p id="lbl1">Search Button</p>
+        <button aria-labelledby="lbl1" type="button">🔍</button>
+    </div>
+
+    <div>
+        <button aria-describedby="info1" type="button">Submit</button>
+        <p id="info1">This sends your form data.</p>
+    </div>
+
+    <div>
+        <button aria-label="Close Menu" type="button">X</button>
+    </div>
+
+    <div>
+        <label for="emailField">Email Address</label>
+        <input id="emailField" type="email">
+    </div>
+
+    <div>
+        <label>
+            Volume:
+            <input type="range" min="0" max="100" value="40" aria-valuenow="40">
+        </label>
+    </div>
+
+    <div>
+        <button class="button-with-css" aria-label="Download File" type="button">Download File</button>
+    </div>
+
+    <div title="This is a tooltip message.">Hover for tooltip</div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Daniel Hung</p>
+</footer>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
